@@ -15,10 +15,10 @@ export default function MediaCarousel() {
         <div className="flex min-h-40 items-center justify-center max-w-6xl">
           <Carousel>
             <CarouselContent >
-              <CarouselItem className="md:basis-1/4 lg:basis-1/3"><Image src={band} alt="Three Town Hope Band" width={400} height={250}/></CarouselItem>
-              <CarouselItem className="md:basis-1/4 lg:basis-1/3"><Image src={band1} alt="Three Town Hope Band"  width={400} height={250}/></CarouselItem>
-              <CarouselItem className="md:basis-1/4 lg:basis-1/3"><Image src={band2} alt="Three Town Hope Band"  width={400} height={250}/></CarouselItem>
-              <CarouselItem className="md:basis-1/4 lg:basis-1/3"><Image src={band} alt="Three Town Hope Band"  width={400} height={250}/></CarouselItem>
+              <CarouselItem className="md:basis-1/4 lg:basis-1/3"><Image src={band} alt="Three Town Hope Band" width={400} height={250} className="rounded"/></CarouselItem>
+              <CarouselItem className="md:basis-1/4 lg:basis-1/3"><Image src={band1} alt="Three Town Hope Band"  width={400} height={250} className="rounded"/></CarouselItem>
+              <CarouselItem className="md:basis-1/4 lg:basis-1/3"><Image src={band2} alt="Three Town Hope Band"  width={400} height={250} className="rounded"/></CarouselItem>
+              <CarouselItem className="md:basis-1/4 lg:basis-1/3"><Image src={band} alt="Three Town Hope Band"  width={400} height={250} className="rounded"/></CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
