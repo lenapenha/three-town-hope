@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['youtube.com', 'vimeo.com', 'facebook.com'], // Add allowed domains for your videos
+  },
 };
 
 export default nextConfig;
