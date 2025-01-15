@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "./images/page.png";
+import logo from "@/assets/page.png";
 
 export default function BandBanner() {
     return (

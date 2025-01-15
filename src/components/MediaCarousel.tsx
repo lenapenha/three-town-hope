@@ -6,9 +6,9 @@ import {
     CarouselPrevious,
   } from "@/components/ui/carousel"
 import Image from "next/image"
-import band from "./images/media/band.jpg";
-import band1 from "./images/media/band1.jpg";
-import band2 from "./images/media/band2.jpg";
+import band from "@/assets/media/band.jpg";
+import band1 from "@/assets/media/band1.jpg";
+import band2 from "@/assets/media/band2.jpg";
 
 export default function MediaCarousel() {
     return (
