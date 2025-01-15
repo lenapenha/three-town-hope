@@ -57,7 +57,8 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 		fontFamily: {
-			'special-elite': ['Special Elite', 'serif']
+			'special-elite': ['Special Elite', 'serif'],
+			'rye': ['Rye', 'serif'],
 		},
   	}
   },

@@ -7,7 +7,7 @@ export default function Logo() {
         <Link href="/">
             <div className="flex flex-row justify-self-start items-center cursor-pointer my-4">
                 <Image src={logo} alt="Logo" width={80} height={80} className="rounded"/>
-                <h1 className="p-2 font-special-elite text-4xl">Three Town Hope</h1 >
+                <h1 className="p-2 font-rye text-4xl">Three Town Hope</h1 >
             </div>
         </Link>
     )
