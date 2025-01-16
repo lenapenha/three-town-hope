@@ -1,5 +1,5 @@
 import Image from "next/image";
-import band from "./../../components/images/media/who-we-are.png";
+import band from "@/assets/media/who-we-are.png";
 
 export default function About() {
     return (
