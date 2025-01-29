@@ -16,7 +16,7 @@ body {
   }
 
   .menu {
-    @apply text-xs sm:text-base ml-4 flex space-x-4 items-center justify-between;
+    @apply text-xs sm:text-base ml-4 flex space-x-4 items-center ;
     
   }
 
