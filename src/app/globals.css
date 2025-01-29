@@ -40,7 +40,7 @@ body {
     @apply mx-auto max-w-7xl w-full;
   }
 
-  .menu-bottom { 
+  .green-section { 
     @apply boxed;
     background: #3a4540;
   }

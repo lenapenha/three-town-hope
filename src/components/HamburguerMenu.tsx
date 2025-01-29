@@ -27,6 +27,8 @@ const Menu = styled.div<MenuProps>`
   align-items: center;
   background: #3a4540;
   text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
   padding: 2rem;
   position: fixed;
   top: 90px;
@@ -61,7 +63,7 @@ export default function HamburguerMenu() {
         <Menu id="menu" open={isOpen} onClick={() => setIsOpen(!isOpen)}>
             <Link href='/' className='hover:underline'>Home</Link>
             <Link href='#about' className='hover:underline' >Who we are</Link>
-            <Link href='/' className='hover:underline'>Contact</Link>
+            <Link href='#contact' className='hover:underline'>Contact</Link>
             <Link href='/' className='hover:underline'>Videos</Link> 
         </Menu>
   </div>

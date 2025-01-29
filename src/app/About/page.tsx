@@ -34,7 +34,7 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row bg-black bg-opacity-50 p-4 h-auto items-center w-full">
+            <div className="flex flex-col sm:flex-row bg-black bg-opacity-50 p-4 h-auto items-center w-full rounded-br-3xl">
                 <div className="w-full sm:w-1/2">
                     <div className="w-full pt-4 pb-2">
                         <h1 className="text-3xl font-special-elite ">Our Goals</h1>
