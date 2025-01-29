@@ -16,12 +16,16 @@ body {
   }
 
   .menu {
-        @apply ml-4 flex space-x-4 items-center justify-between;
+    @apply text-xs sm:text-base ml-4 flex space-x-4 items-center justify-between;
     
   }
 
   .band-banner {
-    @apply bg-gray-800 text-white text-center py-4; 
+    @apply text-white text-center mt-2 sm:mt-0; 
+
+    h1 {
+      @apply text-xs sm:text-2xl;
+    }
     
   }
 

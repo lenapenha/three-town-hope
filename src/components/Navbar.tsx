@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className='menu'>
+    <div className='menu pr-2'>
         <Link href='/' className='hover:underline'>Home</Link>
         <Link href='#about' className='hover:underline'>Who we are</Link>
         <Link href='/' className='hover:underline'>Contact</Link>

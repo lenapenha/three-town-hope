@@ -5,7 +5,7 @@ import Logo from "./Logo";
 export default function Header() {
     return (
         <header className="flex justify-between items-center header">
-            <div className="flex flex-row justify-between items-center boxed">
+            <div className="flex flex-col sm:flex-row justify-between items-center boxed">
                 <Logo />
                 <Navbar/>
             </div>
