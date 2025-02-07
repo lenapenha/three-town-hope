@@ -17,7 +17,7 @@ export default function Contact () {
                 </div>
                 <div className="flex flex-col w-full sm:w-1/2 align-middle justify-center">
                     <Image src={mail} width={200} height={200} alt='mail' className='m-auto'/> 
-                    <span className="font-bold text-2xl">redeemednixa@gmail.com</span>
+                    <span className="font-bold text-2xl">info@threetownhope.com</span>
                 </div>
             </div>
         </div>
