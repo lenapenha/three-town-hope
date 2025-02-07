@@ -10,7 +10,7 @@ export default function About() {
                     <h1 className="text-3xl font-special-elite ">Who we are</h1>
                 </div>
                 <div className="w-full">
-                    <p>Three Town Hope is a group of four men, each called by God and gifted with exceptional musical talents. We live and serve in the Springfield, Ozark, and Nixa area, united by our passion for sharing the gospel through music and prayer.</p>
+                    <p>Three Town Hope is a group of five men, each called by God and gifted with exceptional musical talents. We live and serve in the Springfield, Ozark, and Nixa area, united by our passion for sharing the gospel through music and prayer.</p>
                 </div>
                 <div className="w-full pt-4 pb-2">
                     <h1 className="text-3xl font-special-elite ">Our Experience</h1>
