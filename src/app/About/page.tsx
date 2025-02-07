@@ -1,5 +1,6 @@
 import Image from "next/image";
-import band from "@/assets/media/who-we-are.png";
+import band from "@/assets/media/who-we-are.jpg";
+import band1 from "@/assets/media/who-we-are1.jpg";
 
 export default function About() {
     return (
@@ -48,7 +49,7 @@ export default function About() {
                     </ul>
                 </div>
                 <div className="mx-auto">
-                    <Image src={band} alt="Who we are" width={400} height={250} className="rounded" /> 
+                    <Image src={band1} alt="Who we are" width={400} height={250} className="rounded" /> 
                 </div>
             </div>
         </section>
